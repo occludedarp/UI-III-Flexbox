@@ -61,6 +61,132 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
-}
+} 
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 876px;
+	height: 500px;
+	margin:0 auto;
+}
+
+#navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 25px 0px;
+}
+
+.nav-bar {
+	display: flex;
+/*giving parent flex for purpose of using flex-basis
+on a*/
+
+}
+
+ a {
+	width: 115px;
+	flex-basis: auto;
+	color: gray;
+	text-decoration: none;
+}
+
+
+/*a {
+	display: inline-block;
+	padding: 5px 20px 5px;
+	color: gray;
+	text-decoration: none;
+	border: 2px solid red;
+}*/
+
+
+#main-header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 80px 0px;
+	
+}
+
+#main-header .col {
+	display: flex;
+	flex-direction: column;
+	margin: 0px 100px;
+
+	
+}
+h1 {
+	display: flex;
+	flex-direction: column;
+	font-size: 80px;
+	text-align: center;
+	margin:0 auto;
+	
+}
+#innovation .start {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	margin:15px auto;
+	padding: 5px 0px;
+	text-align: center;
+	border: 1px solid black;
+
+}
+
+#header-image {
+	display: inline-block;;
+	align-items: center;
+	
+}
+
+#top-content{
+	display: flex;
+	justify-content: flex-start;
+	border-top: 1px solid black;
+}
+
+#top-content .col {
+	width:50%;
+	margin: 40px 0px;
+	
+}
+
+#mid-section{
+	display: flex; 
+	
+}
+
+.middle-img {
+	justify-content: center; 
+}
+
+#bottom-content {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+#bottom-content .col {
+	width: 28%;
+	margin: 40px 0px 40px 0px;	
+}
+
+#address {
+
+	margin: 40px 0px 40px 0px;
+}
+
+#address .col .col-address {
+	padding: 20px 0px 20px 0px;
+
+}
+
+footer{
+	display:flex;
+	justify-content: center;
+	margin: 40px 0px 40px 0px;
+}
